@@ -17,15 +17,22 @@ class Body extends StatelessWidget {
           child: SingleChildScrollView(
             child: Column(
               children: [
-                FlatButton(
+                ElevatedButton(
                   onPressed: () {
                     Get.toNamed('/booking');
                   },
-                  color: kPrimaryColor,
+                  // color: kPrimaryColor,
                   child: Text('Cek Booking'),
-                  textColor: Colors.white,
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10)),
+                  // textColor: Colors.white,
+                  // shape: RoundedRectangleBorder(
+                  //   borderRadius: BorderRadius.circular(10),
+                  // ),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: kPrimaryColor,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                  ),
                 ),
                 Text("Buat Janji/BOOKING", style: headingStyle),
                 Text(

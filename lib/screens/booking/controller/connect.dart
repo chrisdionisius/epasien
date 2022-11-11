@@ -1,6 +1,5 @@
 import 'package:EPASIEN/config.dart';
 import 'package:EPASIEN/screens/booking/controller/models.dart';
-import 'package:EPASIEN/screens/sign_up/controller/model.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 

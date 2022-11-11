@@ -73,11 +73,17 @@ class _ListBookingState extends State<ListBooking> {
                       children: [
                         Column(
                           children: [
-                            FlatButton(
-                              color: Colors.orange[600],
-                              shape: new RoundedRectangleBorder(
-                                  borderRadius:
-                                      new BorderRadius.circular(20.0)),
+                            ElevatedButton(
+                              // color: Colors.orange[600],
+                              // shape: new RoundedRectangleBorder(
+                              //   borderRadius: new BorderRadius.circular(20.0),
+                              // ),
+                              style: ElevatedButton.styleFrom(
+                                primary: Colors.orange[600],
+                                shape: new RoundedRectangleBorder(
+                                  borderRadius: new BorderRadius.circular(20.0),
+                                ),
+                              ),
                               child: Text("Check IN"),
                               onPressed: () {},
                             ),
@@ -85,11 +91,17 @@ class _ListBookingState extends State<ListBooking> {
                         ),
                         Column(
                           children: [
-                            FlatButton(
-                              color: Colors.orange[100],
-                              shape: new RoundedRectangleBorder(
-                                  borderRadius:
-                                      new BorderRadius.circular(20.0)),
+                            ElevatedButton(
+                              // color: Colors.orange[100],
+                              // shape: new RoundedRectangleBorder(
+                              //   borderRadius: new BorderRadius.circular(20.0),
+                              // ),
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.orange[100],
+                                shape: new RoundedRectangleBorder(
+                                  borderRadius: new BorderRadius.circular(20.0),
+                                ),
+                              ),
                               child: Text("Batal"),
                               onPressed: () {},
                             ),

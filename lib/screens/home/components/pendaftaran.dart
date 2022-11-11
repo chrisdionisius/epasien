@@ -48,11 +48,11 @@ class DiscountBanner extends StatelessWidget {
 
   showAlertDialog(BuildContext context) {
     // set up the buttons
-    Widget loginButton = FlatButton(
-      child: Text("login"),
-      onPressed: () => Get.offNamed('/login'),
+    Widget loginButton = ElevatedButton(
+      onPressed: (() => Get.offNamed('/login')),
+      child: Text('login'),
     );
-    Widget bookingButton = FlatButton(
+    Widget bookingButton = ElevatedButton(
       child: Text("booking"),
       onPressed: () => Get.offNamed('/daftar'),
     );

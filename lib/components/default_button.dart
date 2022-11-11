@@ -17,9 +17,17 @@ class DefaultButton extends StatelessWidget {
     return SizedBox(
       width: double.infinity,
       height: getProportionateScreenHeight(56),
-      child: FlatButton(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        color: kPrimaryColor,
+      child: ElevatedButton(
+        // shape: RoundedRectangleBorder(
+        //   borderRadius: BorderRadius.circular(20),
+        // ),
+        // color: kPrimaryColor,
+        style: ElevatedButton.styleFrom(
+          backgroundColor: kPrimaryColor,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
+        ),
         onPressed: press,
         child: Text(
           text,

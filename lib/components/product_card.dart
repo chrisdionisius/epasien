@@ -1,9 +1,6 @@
 import 'package:EPASIEN/screens/home/controller/controller.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:http/http.dart';
-
 import '../constants.dart';
 import '../size_config.dart';
 

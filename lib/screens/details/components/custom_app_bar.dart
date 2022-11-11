@@ -23,12 +23,19 @@ class CustomAppBar extends PreferredSize {
             SizedBox(
               height: getProportionateScreenWidth(40),
               width: getProportionateScreenWidth(40),
-              child: FlatButton(
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(60),
+              child: ElevatedButton(
+                // shape: RoundedRectangleBorder(
+                //   borderRadius: BorderRadius.circular(60),
+                // ),
+                // color: Colors.white,
+                // padding: EdgeInsets.zero,
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(60),
+                  ),
+                  backgroundColor: Colors.white,
+                  padding: EdgeInsets.zero,
                 ),
-                color: Colors.white,
-                padding: EdgeInsets.zero,
                 onPressed: () => Navigator.pop(context),
                 child: SvgPicture.asset(
                   "assets/icons/Back ICon.svg",

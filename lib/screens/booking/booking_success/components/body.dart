@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:EPASIEN/components/default_button.dart';
 import 'package:EPASIEN/screens/booking/booking_success/controller/controllerbookingsukses.dart';
-import 'package:EPASIEN/screens/booking/controller/controllercekbooking.dart';
-import 'package:EPASIEN/screens/booking/controller/models.dart';
 import 'package:EPASIEN/size_config.dart';
 import 'package:get/get.dart';
 
